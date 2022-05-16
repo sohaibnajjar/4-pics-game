@@ -102,6 +102,7 @@ function App() {
           status: "success",
           duration: 9000,
           isClosable: true,
+          position: "bottom",
         });
       } else {
         toast({
@@ -109,6 +110,7 @@ function App() {
           description: "You can reset the game to clear your shame",
           duration: 9000,
           isClosable: true,
+          position: "bottom",
         });
       }
     }
